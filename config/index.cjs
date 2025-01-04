@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oRcfp69jFSWeM1HoXcXuwXckLwoc',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'Up8uvg00dMLWJ3O0t5eh-EKu2kQaBJ_07Mz3Nybl2sQ',
+      useTemplateId: 'aKmitP_YKthZm9HCNXcVHzQPSYJAHylkE_0qWnyU_DE',
       festivals: [
         {
           type: '*生日', name: '我家宝宝', year: '2004', date: '08-05', isShowAge: true,
