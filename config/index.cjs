@@ -26,21 +26,20 @@ const USER_CONFIG = {
       useTemplateId: 'ekj5jfaG75CzyoLCFOnB1o5DCOgb9_sA30EHh6axDHQ',
       festivals: [
         {
-          type: '*生日', name: '我家宝宝', year: '2004', date: '09-18',
+          type: '*生日', name: '我家宝宝', year: '2004', date: '09-18', isShowAge: true,
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '我家宝宝', year: '2004', date: '09-18',
+          type: '生日', name: '我家宝宝', year: '2004', date: '09-18', isShowAge: true,
         },
         {
-          type: '恋爱一周年', name: '我们', year: '2024', date: '01-19',
+          type: '节日', name: '我们', year: '2024', date: '01-19',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2024-01-19' },
-        { keyword: 'love_day_1', date: '2025-01-19' }
       ],
     },
   ],
