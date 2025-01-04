@@ -25,12 +25,15 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'fkdBrhlrqkLhfhn8YoZVkJxT_ZsJJ7f2RJ2V1j9JdPk',
       festivals: [
+        {
+          type: '*生日', name: '我家宝宝', year: '2004', date: '09-18',
+        },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '我家宝宝', year: '2004', date: '09-18',
         },
         {
-          type: '恋爱一周年', name: '恋爱一周年', year: '2025', date: '01-19',
+          type: '恋爱一周年', name: '我们', year: '2024', date: '01-19',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
