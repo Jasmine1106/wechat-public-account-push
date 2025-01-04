@@ -25,21 +25,19 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'qQc9mdhqigHpgildHDW4jF537nREtw8yVq8XIjfSlVk',
       festivals: [
-        {
-          type: '*生日', name: '我家宝宝', year: '2004', date: '09-18', isShowAge: true,
-        },
+  
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
           type: '生日', name: '我家宝宝', year: '2004', date: '09-18', isShowAge: true,
         },
         {
-          type: '节日', name: '我们', year: '2024', date: '01-19',
+          type: '节日', name: '我们恋爱一周年', year: '2024', date: '01-19',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2024-01-19' },
+        // 在一起的日子，不明原因计算多一天，故从1.19手动加多一天
+        { keyword: 'love_day', date: '2024-01-20' },
       ],
     },
   ],
